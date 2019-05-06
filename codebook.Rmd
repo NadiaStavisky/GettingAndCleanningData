@@ -1,0 +1,57 @@
+---
+title: "CodeBookRMD"
+author: "Nadia Stavisky"
+date: "5/5/2019"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Full description is available at the Human Activity Recognition Using
+Smartphones Data Set
+site. See <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+setwd("/Users/Nadya/Nanodegree/Data Science Specialization/Getting and Cleaning Data")
+data <- read.table("./project4/tidy_data.txt")
+```
+
+Data dimensions
+Number of observations:
+```{r, echo=FALSE}
+dim(data)[1]
+```
+Number of variables:
+```{r, echo=FALSE}
+dim(data)[2]
+```
+Data structure:
+```{r, echo=FALSE}
+str(data)
+```
+Measurments transformed into average of the mean and
+    standard deviation for each measurement from the raw data set for
+    each activity and each subject.
+
+Variables Data grouped by:
+```{r, echo=FALSE}
+colnames(data)[1:2]
+```
+Time domain signals:
+```{r, echo=FALSE}
+measurments <- colnames(data)[-c(1:2)]
+measurments[grep("^time", measurments)]
+```
+
+Frequency domain signals:
+```{r, echo=FALSE}
+measurments <- colnames(data)[-c(1:2)]
+measurments[grep("^frequency", measurments)]
+```
+
