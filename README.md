@@ -5,11 +5,11 @@ Goal of the project   - prepare tidy data that can be used for later analysis
 
 This repository contains the following files:
 
-*_README.md_, this file, which provides an overview of the data set and how it was created.
-*_tidy_data.txt_, which contains the data set.
-*_CodeBook.md_, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
-*_run_analysis.R_, the R script that was used to create the tidy data set (_tidy_data.txt_)
-*_codebook.rmd_, which modifies and updates the available -CodeBook.md_ with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information
+* _README.md_, this file, which provides an overview of the data set and how it was created.
+* _tidy_data.txt_, which contains the data set.
+* _CodeBook.md_, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
+* _run_analysis.R_, the R script that was used to create the tidy data set (_tidy_data.txt_)
+* _codebook.rmd_, which modifies and updates the available -CodeBook.md_ with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. Source data was obtained from [Human Activity Recognition Using Smartphones Data Set.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
