@@ -69,11 +69,4 @@ activityDataMeans <- activityData %>%
 
 
 # output to file "tidy_data.txt"
-write.table(activityDataMeans, "./project4/tidy_data.txt", row.names = FALSE, 
-            quote = FALSE)
-list.files(file.path(path))
-
-
-
-
-
+write.table(activityDataMeans, "./project4/tidy_data.txt")
