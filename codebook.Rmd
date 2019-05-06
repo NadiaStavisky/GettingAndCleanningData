@@ -17,7 +17,7 @@ site. See <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Usi
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r}
+```{r, echo=FALSE}
 setwd("/Users/Nadya/Nanodegree/Data Science Specialization/Getting and Cleaning Data")
 data <- read.table("./project4/tidy_data.txt")
 ```
