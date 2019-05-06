@@ -1,5 +1,5 @@
 ## GettingAndCleaningData
-#README
+# README
 Purpose of the project - demonstrate your ability to collect, work with, and clean a data set
 Goal of the project   - prepare tidy data that can be used for later analysis
 
@@ -14,7 +14,7 @@ This repository contains the following files:
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. Source data was obtained from [Human Activity Recognition Using Smartphones Data Set.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
-#Steps to reproduce this project
+# Steps to reproduce this project
 * Run R script run_analysis.R to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
 
 * Download and unzip source data if it doesn't exist.
